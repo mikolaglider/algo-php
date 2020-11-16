@@ -1,0 +1,21 @@
+{
+    "name": "nikolay/algo",
+    "authors": [
+        {
+            "name": "Nikolay Z.",
+            "email": "nikolayzpost@gmail.com"
+        }
+    ],
+    "autoload": {
+        "files": [
+        "search/binary/func.php"
+        ]
+    },
+    "require": {},
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^3.5"
+    },
+    "scripts": {
+        "phpcs": "phpcs"
+    }
+}
