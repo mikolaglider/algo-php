@@ -8,8 +8,9 @@
     ],
     "autoload": {
         "files": [
-        "search/binary/func.php",
-        "sort/selection/func.php"
+            "search/binary/func.php",
+            "sort/selection/func.php",
+            "recursion/sum.php"
         ]
     },
     "require": {},
