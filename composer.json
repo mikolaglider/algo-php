@@ -10,7 +10,7 @@
         "files": [
             "search/binary/func.php",
             "sort/selection/func.php",
-            "recursion/sum.php"
+            "recursion/func.php"
         ]
     },
     "require": {},
