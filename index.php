@@ -15,6 +15,9 @@ print PHP_EOL;
 print_r(Recursion\recount($array));
 print PHP_EOL;
 
+print_r(Recursion\remax($array));
+print PHP_EOL;
+
 $sorted = Selection\sort($array);
 print_r($sorted);
 

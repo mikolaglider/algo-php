@@ -16,3 +16,11 @@ function recount(array $array)
 		? 0
 		: 1 + recount($array);
 }
+
+function remax(array $array)
+{
+	if (count($array) == 1) {
+		return array_shift($array);
+	}
+	return max(array_shift($array), remax($array));
+}
