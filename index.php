@@ -23,7 +23,5 @@ print_r($sorted);
 
 print_r(Recursion\sum($sorted));
 echo PHP_EOL;
-var_dump(Binary\search($sorted, 0));
-echo PHP_EOL;
-var_dump(Binary\search($sorted, 7));
-echo PHP_EOL;
+var_dump(Recursion\research($sorted, 0));
+var_dump(Recursion\research($sorted, 6));
